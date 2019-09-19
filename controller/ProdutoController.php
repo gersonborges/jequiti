@@ -35,8 +35,7 @@ class ProdutoController
             $obj->setCategoriaId($_POST['categoriaId']);
             $obj->setFornecedorId($_POST['fornecedorId']);
 
-
- //           $obj->create();
+            $obj->create();
 
         }
 
